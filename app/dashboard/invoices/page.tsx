@@ -4,7 +4,7 @@ import {lusitana} from '@/app/ui/fonts';
 import {InvoicesTableSkeleton} from '@/app/ui/skeletons';
 import {Suspense} from 'react';
 import Table from '@/app/ui/invoices/table';
-import { fetchInvoicesPages } from '@/app/lib/data';
+import {fetchInvoicesPages} from '@/app/lib/data';
 import Pagination from '@/app/ui/invoices/pagination';
 
 export default async function Page(props: {
